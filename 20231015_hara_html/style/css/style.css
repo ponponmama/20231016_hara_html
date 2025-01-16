@@ -1,0 +1,209 @@
+/*bodyのstyle*/
+.tech_home {
+    width: 90%;
+    margin: 4px auto;
+    text-align: center;
+}
+/*ナビゲーションメニュー全体のstyle*/
+.nav_menu {
+    list-style: none;
+    padding: 10px 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+/*ナビゲーションメニュー項目*/
+.nav_content {
+    padding: 10px 20px;
+}
+/*linkのstyle*/
+.nav_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/*linkホバー時のstyle*/
+.nav_link:hover {
+    color: #0056b3;
+}
+/*メイン画像全体のstyle*/
+.img_png {
+    width: 90%;
+    margin: auto;
+}
+/*メイン画像*/
+.mv_img {
+    width: 100%;
+}
+/*宣伝文言*/
+.infor {
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 10px;
+}
+/*会社概要全体のstyle*/
+.company {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+/*会社概要文字*/
+.company_overview {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+/*会社概要のtableのstyle*/
+.company_details {
+    margin: 20px  auto;
+}
+/*会社概要tableの項目*/
+.company_header {
+    text-align: right;
+}
+/*会社概要内容*/
+.company_data {
+    text-align: left;
+    padding-left: 20px;
+}
+/*お問い合わせ文字*/
+.inquiry {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px auto;
+}
+/*お問い合わせformのstyle*/
+.inquiry_form {
+    width: 100%;
+    margin: 4px;
+}
+/*お問い合わせformのtableのstyle*/
+.inquiry_details {
+    width: 100%;
+    padding: 4px;
+    table-layout: fixed;
+}
+/*お問い合わせのtrの設定 */
+.inquiry_row {
+    width: 100%;
+    line-height: 50px;
+}
+/*お問い合わせのthの設定 */
+.inquiry_header {
+    width: 20%;
+    text-align: right;
+    padding: 2px;
+    height: 50px;
+}
+/*お問い合わせのtdの設定 */
+.inquiry_text {
+    width: 80%;
+    height: 50px;
+}
+/*入力フォームのstyle*/
+.input_field,
+.inquiry_data_text {
+    width: calc(100% - 4px);
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    line-height: 30px;
+}
+/*お問い合わせ内容のフォームstyle*/
+.inquiry_data_text {
+    height: 150px;
+}
+/*copyrightのstyle*/
+.copyright {
+    display: block;
+    text-align: center;
+}
+/* ボタンのstyle*/
+.application {
+    background-color: rgb(224, 223, 223);
+    display: block;
+    border-radius: 6px;
+    margin: 20px auto;
+    padding: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    /*ナビゲーションメニュー全体のstyle*/
+    .nav_menu {
+        width: 100%;
+        padding: 4px 0;
+        margin: 10px 0;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    /*ナビゲーションメニュー項目*/
+    .nav_content {
+        padding: 4px 20px;
+        font-size: 0.8rem;
+    }
+    /*linkのstyle*/
+    .nav_link {
+        font-size: 0.8rem;
+    }
+    /*宣伝文言*/
+    .infor {
+        margin: 16px 2px;
+        font-size: 1.1rem;
+    }
+    /*会社概要全体のstyle*/
+    .company {
+        width: 80%;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 0.8rem;
+    }
+    /*会社概要文字*/
+    .company_overview {
+        margin: 20px 10px;
+        font-size: 0.8rem;
+    }
+    /*会社概要のtableのstyle*/
+    .company_details {
+        width: 100%;
+        margin: 0;
+        padding: 2px;
+    }
+    /*会社概要tableの項目*/
+    .company_header {
+        text-align: right;
+    }
+    /*会社概要内容*/
+    .company_data {
+        text-align: left;
+        padding-left: 30px;
+    }
+    /*お問い合わせ文字*/
+    .inquiry {
+        font-size: 0.8rem;
+        margin: 20px 2px 10px 2px;
+    }
+    /*お問い合わせformのstyle*/
+    .inquiry_form {
+        width: 100%;
+    }
+    /*お問い合わせのtrの設定 */
+    .inquiry_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*お問い合わせのthの設定 */
+    .inquiry_header {
+        width: 100%;
+        text-align: left;
+        padding: 2px 10px;
+    }
+    /*お問い合わせのtdの設定 */
+    .inquiry_text {
+        width: 100%;
+    }
+}
